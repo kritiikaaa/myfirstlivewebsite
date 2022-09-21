@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: rgb(230, 176, 180);">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW FORM</title>
+</head>
+<body>
+    
+    <form action="thankyou.html" >
+    <header>
+        <h1 style="font-family: courier;" >  TELL US SOMETHING ABOUT YOU!! </h1>
+    </header>
+        
+    <section>
+        <ul>
+        <li><label for="name">FULL NAME:</label>
+        <input name="name" id="name" maxlength="50" type="text"></li>
+        <br><br>
+
+        <li><label for="birthday">YOUR BIRTH DATE:</label>
+        <input type="date" id="birthday" name="bday"></li>
+         <br><br>
+
+        <li><label for="mood">CURRENT MOOD:</label>
+        <select name="mood" id="mood">
+            <option value="😊">HAPPY😊</option>
+            <option value="😥">SAD😥</option>
+            <option value="😪">SLEEPY😪</option>
+            <option value="😶">NEUTRAL😶</option>
+        </select></li>
+        <br><br>
+
+        <li><label for="hobby">FAVORITE HOBBY:</label>
+        <input type="text" id="hobby" name="hobby"></li>
+        <br><br>
+
+        <li><label for="bestexp">BEST EXPERIENCE:</label>
+        <textarea name="bestexperience" id="bestexp" cols="50" rows="5"></textarea></li>
+        <br><br>
+
+        <li><label for="worstexp">WORST EXPERIENCE:</label>
+        <textarea name="worstexperience" id="worstexp" cols="50" rows="5"></textarea></li>
+        <br><br>
+        
+        <li><label for="ambition">YOUR AMBITIONS:</label>
+        <textarea name="ambition" id="ambition" cols="50" rows="3"></textarea></li>
+            <br><br>
+
+         <li>FIRST PRIORITY:
+            <input type="radio" name="priority" id="food">
+            <label for="food">FOOD</label>
+            <input type="radio" name="priority" id="sleep">
+            <label for="sleep">SLEEP</label>
+            <input type="radio" name="priority" id="career">   
+            <label for="career">CAREER</label>    
+            <input type="radio" name="priority" id="nothing">
+            <label for="nothing">NOTHING YET</label>
+         </li> <br><br>
+         
+         <li><label for="myquery">WHERE WILL THIS DATA BE SAVED AFTER SUBMISSION:</label>
+         <textarea name="query" id="myquery" cols="30" rows="10"></textarea></li>
+          <br><br>
+
+         <li><label for="myquery2">HOW WILL I GET TO KNOW YOUR RESPONSE:</label>
+         <textarea name="query2" id="myquery2" cols="30" rows="10"></textarea></li>
+            <br><br>
+            
+        </ul>
+    </section>
+
+    <footer>
+    <input type="reset">
+    <input type="submit">
+    </footer>
+    </form>
+</body>
+</html>
